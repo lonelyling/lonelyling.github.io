@@ -191,6 +191,7 @@ h1, h2, h3, h4 { line-height: 1.3; }
   border-bottom: 1px solid var(--line);
 }
 .publication-item:last-child { border-bottom: 0; padding-bottom: 0; }
+.publication-item--text { grid-template-columns: minmax(0, 1fr); }
 .publication-figure { min-width: 0; margin: 0; }
 .publication-figure .figure-image-link {
   display: flex;
