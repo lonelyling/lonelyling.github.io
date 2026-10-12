@@ -16,7 +16,7 @@
   </script>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/cjk-font.css">
-  <link rel="stylesheet" href="assets/academic.css">
+  <link rel="stylesheet" href="assets/academic.css?v=20261012-education">
   <script src="assets/academic.js" defer></script>
   <script src="assets/life-data.js" defer></script>
   <script src="assets/life.js" defer></script>
@@ -30,7 +30,8 @@
         <a href="#about" aria-current="page">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#career-education">Experience</a>
+        <a href="#experience">Experience</a>
+        <a href="#career-education">Education</a>
         <a href="#life">Life</a>
       </nav>
     </div>
@@ -53,13 +54,19 @@
     <main class="academic-content">
       <section class="content-section about-section" id="about">
         <h2>About Me</h2>
-        <p>I am a Software Engineering undergraduate at <strong>Shanghai Jiao Tong University (SJTU)</strong>, where I am advised by Prof. Tao Huang and expect to graduate in 2027. In summer 2026, I was a visiting student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Xiaojuan Ma.</p>
-        <p>My research interests span efficient world models, human–computer interaction, and data mining. I hope to advance AI technologies that serve people and make the benefits of the AI era more widely accessible.</p>
+        <p>I am a Software Engineering undergraduate at <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Shanghai Jiao Tong University (SJTU)</strong></a>, advised by <a href="https://taohuang.info/" target="_blank" rel="noopener noreferrer"><strong>Prof. Tao Huang</strong></a>, and expect to graduate in 2027.</p>
+        <p>My research experience includes an internship with <a href="https://www.cs.sjtu.edu.cn/~gao-xf/" target="_blank" rel="noopener noreferrer"><strong>Prof. Xiaofeng Gao</strong></a> at <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>SJTU</strong></a> on cloud workload prediction, and an internship with <a href="https://zhuoranlu.github.io/" target="_blank" rel="noopener noreferrer"><strong>Zhuoran Lu</strong></a> at <a href="https://www.hku.hk/" target="_blank" rel="noopener noreferrer"><strong>The University of Hong Kong (HKU)</strong></a> on AI-assisted storytelling. In summer 2026, I was a visiting student at the <a href="https://hkust.edu.hk/" target="_blank" rel="noopener noreferrer"><strong>Hong Kong University of Science and Technology (HKUST)</strong></a>, supervised by <a href="https://cse.hkust.edu.hk/~mxj/" target="_blank" rel="noopener noreferrer"><strong>Prof. Xiaojuan Ma</strong></a>.</p>
+        <p>My interests lie in <strong>efficient world models</strong>, <strong>human–computer interaction</strong>, and <strong>data mining</strong>. I am interested in making AI both more computationally efficient and more useful to people—from efficient video generation to interactive systems that support creativity and communication.</p>
+        <p>Ultimately, I hope to develop AI technologies that serve people and make their benefits more widely accessible.</p>
       </section>
 
       <section class="content-section" id="research">
         <h2>Research Interests</h2>
-        <ul class="research-fields"><li>Efficient World Models</li><li>Human–Computer Interaction</li><li>Data Mining</li></ul>
+        <ul class="research-fields">
+          <li><strong>Efficient World Models:</strong> linear attention and efficient video generation.</li>
+          <li><strong>Human–Computer Interaction:</strong> human–AI collaboration, interactive storytelling, and communication.</li>
+          <li><strong>Data Mining:</strong> time-series forecasting and spatio-temporal modeling for cloud workloads.</li>
+        </ul>
       </section>
 
       <section class="content-section" id="publications">
@@ -123,18 +130,47 @@
         </div>
       </section>
 
-      <section class="content-section career-section" id="career-education">
-        <h2>Career &amp; Education History</h2>
-        <div class="career-row">
-          <h3>Undergraduate</h3>
-          <p class="career-institution">School of Computer Science, Shanghai Jiao Tong University (<a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">sjtu.edu.cn</a>)</p>
-          <span class="career-years">2023 – 2027</span>
-        </div>
-        <div class="career-row">
-          <h3>Visiting student</h3>
-          <p class="career-institution">Department of Computer Science and Engineering, The Hong Kong University of Science and Technology (<a href="https://hkust.edu.hk/" target="_blank" rel="noopener noreferrer">hkust.edu.hk</a>)</p>
-          <span class="career-years">Summer 2026</span>
-        </div>
+      <section class="content-section experience-section" id="experience">
+        <h2>Research Experience</h2>
+        <article class="experience-row">
+          <div class="entry-heading"><h3><a href="https://www.hku.hk/" target="_blank" rel="noopener noreferrer"><strong>The University of Hong Kong (HKU)</strong></a></h3><span class="entry-date">Jun 2026 – Present</span></div>
+          <p class="entry-role"><strong>Research Intern</strong> · Mentor: <a href="https://zhuoranlu.github.io/" target="_blank" rel="noopener noreferrer"><strong>Zhuoran Lu</strong></a></p>
+          <p>Designed and built an LLM-powered storytelling prototype for exploring canon and fan fiction, comparing story states, and creating grounded “What-If” branches. This work led to <a href="#publications">FANVERSE</a>, accepted to the NeurIPS 2026 Creative AI Track.</p>
+        </article>
+        <article class="experience-row">
+          <div class="entry-heading"><h3><a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Shanghai Jiao Tong University (SJTU)</strong></a></h3><span class="entry-date">Sep 2024 – Mar 2026</span></div>
+          <p class="entry-role"><strong>Research Intern</strong> · Mentor: <a href="https://www.cs.sjtu.edu.cn/~gao-xf/" target="_blank" rel="noopener noreferrer"><strong>Prof. Xiaofeng Gao</strong></a></p>
+          <p>Studied time-series prediction for cloud resource scheduling, including system state, spatio-temporal dependencies, and forecast uncertainty. Contributed to the evaluation of <a href="#publications">STDPS</a>, published in IEEE Transactions on Services Computing.</p>
+        </article>
+      </section>
+
+      <section class="content-section education-section" id="career-education">
+        <h2>Education &amp; Visiting Experience</h2>
+        <article class="education-row">
+          <a class="institution-logo" href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer" aria-label="Shanghai Jiao Tong University website"><img src="assets/institutions/sjtu.svg" width="72" height="72" alt="Shanghai Jiao Tong University emblem"></a>
+          <div class="education-copy">
+            <div class="entry-heading"><h3><a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Shanghai Jiao Tong University (SJTU)</strong></a></h3><span class="entry-date">Sep 2023 – Jun 2027 (expected)</span></div>
+            <p class="institution-detail">School of Computer Science</p>
+            <div class="entry-bottom"><p><strong>B.S. in Software Engineering</strong></p><span>Shanghai, China</span></div>
+            <p class="education-mentor">Advisor: <a href="https://taohuang.info/" target="_blank" rel="noopener noreferrer"><strong>Prof. Tao Huang</strong></a></p>
+          </div>
+        </article>
+        <article class="education-row">
+          <a class="institution-logo" href="https://hkust.edu.hk/" target="_blank" rel="noopener noreferrer" aria-label="HKUST website"><span class="logo-crop logo-crop--hkust"><img src="assets/institutions/hkust.svg" width="187" height="60" alt="HKUST emblem"></span></a>
+          <div class="education-copy">
+            <div class="entry-heading"><h3><a href="https://hkust.edu.hk/" target="_blank" rel="noopener noreferrer"><strong>Hong Kong University of Science and Technology (HKUST)</strong></a></h3><span class="entry-date">Summer 2026</span></div>
+            <p class="institution-detail">Department of Computer Science and Engineering</p>
+            <div class="entry-bottom"><p><strong>Summer Visiting Student</strong></p><span>Hong Kong SAR, China</span></div>
+            <p class="education-mentor">Supervisor: <a href="https://cse.hkust.edu.hk/~mxj/" target="_blank" rel="noopener noreferrer"><strong>Prof. Xiaojuan Ma</strong></a></p>
+          </div>
+        </article>
+        <article class="education-row">
+          <a class="institution-logo" href="https://shude.cd168.cn/" target="_blank" rel="noopener noreferrer" aria-label="Chengdu Shude High School website"><span class="logo-crop logo-crop--shude"><img src="assets/institutions/shude.png" width="430" height="95" alt="Chengdu Shude High School emblem"></span></a>
+          <div class="education-copy">
+            <div class="entry-heading"><h3><a href="https://shude.cd168.cn/" target="_blank" rel="noopener noreferrer"><strong>Chengdu Shude High School</strong></a></h3><span class="entry-date">2020 – 2023</span></div>
+            <div class="entry-bottom"><p><strong>High School</strong></p><span>Chengdu, Sichuan, China</span></div>
+          </div>
+        </article>
       </section>
 
       <section class="content-section honors-section" id="honors">
