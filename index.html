@@ -30,7 +30,7 @@
         <a href="#about" aria-current="page">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#career-education">Career &amp; Education History</a>
+        <a href="#career-education">Experience</a>
         <a href="#life">Life</a>
       </nav>
     </div>
@@ -42,9 +42,11 @@
       <h1>Lingyi Long</h1>
       <p class="profile-role">B.S. student in Software Engineering</p>
       <p class="profile-affiliation">Shanghai Jiao Tong University<br>Shanghai, China</p>
+      <h2 class="profile-label">Contact</h2>
       <div class="profile-links">
         <a href="mailto:longlingyi11@sjtu.edu.cn">Email <span aria-hidden="true">↗</span></a>
         <a href="https://openreview.net/profile?id=%7ELingyi_Long1" target="_blank" rel="noopener noreferrer">OpenReview <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/lonelyling" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </aside>
 
@@ -53,16 +55,11 @@
         <h2>About Me</h2>
         <p>I am a Software Engineering undergraduate at <strong>Shanghai Jiao Tong University (SJTU)</strong>, where I am advised by Prof. Tao Huang and expect to graduate in 2027. In summer 2026, I was a visiting student at the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Xiaojuan Ma.</p>
         <p>My research interests span efficient world models, human–computer interaction, and data mining. I hope to advance AI technologies that serve people and make the benefits of the AI era more widely accessible.</p>
-        <div class="text-links">
-          <a href="mailto:longlingyi11@sjtu.edu.cn">Email</a>
-          <span aria-hidden="true">/</span>
-          <a href="https://openreview.net/profile?id=%7ELingyi_Long1" target="_blank" rel="noopener noreferrer">OpenReview</a>
-        </div>
       </section>
 
       <section class="content-section" id="research">
-        <h2>Research</h2>
-        <p class="research-fields"><span>Efficient World Models</span><span>Human–Computer Interaction (HCI)</span><span>Data Mining</span></p>
+        <h2>Research Interests</h2>
+        <ul class="research-fields"><li>Efficient World Models</li><li>Human–Computer Interaction</li><li>Data Mining</li></ul>
       </section>
 
       <section class="content-section" id="publications">
@@ -75,13 +72,13 @@
               <a class="figure-image-link" href="assets/paper-figures/stdps-framework.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size STDPS framework figure">
                 <img src="assets/paper-figures/stdps-framework.webp" width="1135" height="713" alt="STDPS framework: similarity encoding, system state, temporal patterns, contrastive learning, and scaling decisions">
               </a>
-              <figcaption><span>Figure 8 · STDPS framework</span><a class="figure-open-link" href="assets/paper-figures/stdps-framework.webp" target="_blank" rel="noopener noreferrer">View figure ↗</a></figcaption>
+              <figcaption><span>STDPS framework</span><a class="figure-open-link" href="assets/paper-figures/stdps-framework.webp" target="_blank" rel="noopener noreferrer">View figure ↗</a></figcaption>
             </figure>
             <div class="publication-copy">
               <h4>STDPS: State-Aware Spatio-Temporal Workload Distribution Prediction for Cloud Service Scaling</h4>
-              <p class="publication-summary">STDPS models cross-service dependencies, service state, and forecast uncertainty to support more accurate, resource-efficient cloud scaling.</p>
               <p class="publication-authors">Yang Luo, Yiheng Wang, <strong>Lingyi Long</strong>, Tengwei Cai, Xiaofeng Gao, Guihai Chen</p>
               <p class="publication-venue">IEEE Transactions on Services Computing, 19(3): 2506–2519, 2026.</p>
+              <p class="publication-summary">STDPS models cross-service dependencies, service state, and forecast uncertainty to support more accurate, resource-efficient cloud scaling.</p>
               <div class="publication-links"><a href="https://doi.org/10.1109/TSC.2026.3688819" target="_blank" rel="noopener noreferrer">DOI / Paper ↗</a></div>
             </div>
           </article>
@@ -91,13 +88,13 @@
               <a class="figure-image-link" href="assets/paper-figures/fanverse-overview.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size FANVERSE overview figure">
                 <img src="assets/paper-figures/fanverse-overview.webp" width="1174" height="617" alt="FANVERSE overview: canon and fan-written stories aligned into an explorable branching story universe">
               </a>
-              <figcaption><span>Figure 1 · FANVERSE overview</span><a class="figure-open-link" href="assets/paper-figures/fanverse-overview.webp" target="_blank" rel="noopener noreferrer">View figure ↗</a></figcaption>
+              <figcaption><span>FANVERSE overview</span><a class="figure-open-link" href="assets/paper-figures/fanverse-overview.webp" target="_blank" rel="noopener noreferrer">View figure ↗</a></figcaption>
             </figure>
             <div class="publication-copy">
               <h4>FANVERSE: Exploring and Extending Branching Story Universes Across Canon and Fan Fiction</h4>
-              <p class="publication-summary">FANVERSE turns canon and fan fiction into a navigable branching story universe, helping readers compare story paths and create grounded new branches.</p>
               <p class="publication-authors"><strong>Lingyi Long</strong>, Xian Li, Shuai Ma, Yi Wang, Zhuoran Lu <span class="equal-note">(Lingyi Long and Xian Li contributed equally)</span></p>
               <p class="publication-venue">NeurIPS 2026 Creative AI Track · Accepted</p>
+              <p class="publication-summary">FANVERSE turns canon and fan fiction into a navigable branching story universe, helping readers compare story paths and create grounded new branches.</p>
               <div class="publication-links"><a href="assets/papers/fanverse-neurips-2026.pdf" target="_blank" rel="noopener noreferrer">PDF ↗</a></div>
             </div>
           </article>
@@ -105,11 +102,22 @@
 
         <div class="publication-group">
           <h3>Under Review</h3>
-          <article class="publication-item publication-item--text">
+          <article class="publication-item" id="linmorph">
+            <figure class="publication-figure">
+              <a class="figure-image-link" href="assets/paper-figures/linmorph-overview.webp" target="_blank" rel="noopener noreferrer" aria-label="Open the full-size LinMorph framework figure">
+                <img src="assets/paper-figures/linmorph-overview.webp" width="1584" height="460" loading="lazy" alt="LinMorph framework: learned weight transformation, progressive Gated DeltaNet distillation, and joint recovery">
+              </a>
+              <figcaption><span>LinMorph framework</span><a class="figure-open-link" href="assets/paper-figures/linmorph-overview.webp" target="_blank" rel="noopener noreferrer">View figure ↗</a></figcaption>
+            </figure>
             <div class="publication-copy">
-              <h4>Efficient World Models</h4>
-              <p class="publication-summary">This work explores more computationally efficient world models for long-horizon prediction while preserving generative quality and temporal consistency.</p>
+              <h4><a href="https://lonelyling.github.io/LinMorph/" target="_blank" rel="noopener noreferrer">LinMorph: Learning to Morph Weights for Efficient Video DiT Linearization</a></h4>
               <p class="publication-venue">ICLR 2027 submission · Under review</p>
+              <p class="publication-summary">LinMorph learns to transform pretrained attention weights into linear-attention modules, enabling faster recovery and efficient video generation.</p>
+              <div class="publication-links">
+                <a href="https://lonelyling.github.io/LinMorph/" target="_blank" rel="noopener noreferrer">Project ↗</a>
+                <a href="https://github.com/lonelyling/LinMorph" target="_blank" rel="noopener noreferrer">Code ↗</a>
+                <a href="https://huggingface.co/Lonelly/LinMorph" target="_blank" rel="noopener noreferrer">Model weights ↗</a>
+              </div>
             </div>
           </article>
         </div>
@@ -118,14 +126,14 @@
       <section class="content-section career-section" id="career-education">
         <h2>Career &amp; Education History</h2>
         <div class="career-row">
-          <h3>Undergrad student</h3>
+          <h3>Undergraduate</h3>
           <p class="career-institution">School of Computer Science, Shanghai Jiao Tong University (<a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">sjtu.edu.cn</a>)</p>
           <span class="career-years">2023 – 2027</span>
         </div>
         <div class="career-row">
-          <h3>Intern</h3>
+          <h3>Visiting student</h3>
           <p class="career-institution">Department of Computer Science and Engineering, The Hong Kong University of Science and Technology (<a href="https://hkust.edu.hk/" target="_blank" rel="noopener noreferrer">hkust.edu.hk</a>)</p>
-          <span class="career-years">2026 – 2026</span>
+          <span class="career-years">Summer 2026</span>
         </div>
       </section>
 
