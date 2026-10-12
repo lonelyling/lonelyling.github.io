@@ -111,8 +111,9 @@ img { max-width: 100%; }
 .education-mentor { color: var(--muted); }
 .education-mentor a { color: var(--ink); }
 .honors-section ul { padding: 0; margin: 0; list-style: none; }
-.honors-section li { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; padding: 5px 0; font-size: 15px; }
-.honors-section li span { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.honors-section li { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; align-items: baseline; padding: 8px 0; font-size: 17px; line-height: 1.6; }
+.honors-section li strong { font-weight: 600; }
+.honors-section li span { color: var(--muted); font-size: 14px; font-weight: 500; font-variant-numeric: tabular-nums; }
 
 /* Life stays in the homepage flow, with the same typographic scale. */
 .life-section { border-top: 1px solid var(--line); padding-top: 30px; }
@@ -212,8 +213,8 @@ img { max-width: 100%; }
   .career-institution { grid-column: 1 / -1; font-size: 14px; }
   .career-years { grid-row: 1; font-size: 12px; }
   .career-row h3 { font-size: 14px; }
-  .honors-section li { grid-template-columns: 84px minmax(0, 1fr); gap: 12px; font-size: 14px; }
-  .honors-section li span { font-size: 12px; }
+  .honors-section li { grid-template-columns: 84px minmax(0, 1fr); gap: 12px; font-size: 16px; }
+  .honors-section li span { font-size: 13px; }
   .practice-number { top: 29px; }
   .practice-visual img { max-height: 260px; }
   .gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 12px; }
